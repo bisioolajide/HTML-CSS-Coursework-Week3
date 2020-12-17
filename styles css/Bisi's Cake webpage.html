@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bisi's Cake webpage</title>
+    <!-- media links downloaded online -->
+    
+    <!-- Add a link to your css file here -->
+    
+<link rel="stylesheet" href="./Bisi&#39;s Cake webpage_files/font-awesome.min.css"><link rel="stylesheet" href="./Bisi&#39;s Cake webpage_files/style.css"></head>
+
+<body data-new-gr-c-s-check-loaded="14.976.0" data-gr-ext-installed="">
+    <!-- Add your markup here -->
+   <header>
+        <nav class="nav-position">
+            <img src="./Bisi&#39;s Cake webpage_files/logo.png" class="nav-logo">
+            <img src="./Bisi&#39;s Cake webpage_files/menu-hamburger.svg" class="hamburger">           
+            <ul class="nav-ul">                
+                <li><a href="http://127.0.0.1:5500/index.html#">home</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">cakes</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">ordering</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">lessons</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#">lessons</a></li>
+            </ul>
+    </nav>
+    </header>
+<main>
+    <hero class="heroMain">
+        <img src="./Bisi&#39;s Cake webpage_files/heroMain1.jpeg"> 
+        <h1><i>The best cakes in town delivered to your door</i></h1>    
+    </hero>
+ 
+    <section>
+        <h1>Welcome</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt</h2>
+    </section>
+
+    <section class="img-main">
+        <!-- <div class="container-cupcakes"> -->
+            <img src="./Bisi&#39;s Cake webpage_files/image (1).png" class="#">
+            <img src="./Bisi&#39;s Cake webpage_files/hero2.png" class="#">
+            <img src="./Bisi&#39;s Cake webpage_files/hero3.png" class="#">
+            <img src="./Bisi&#39;s Cake webpage_files/hero9.png" class="#">
+            <img src="./Bisi&#39;s Cake webpage_files/hero8.png" class="#">
+        <!-- </div> -->
+    </section>
+
+</main> 
+
+<footer>
+<!--footer media icons -->
+    <section class="media-contact">
+    <h3>Join us on</h3>
+    <div class="contact-list">
+        <ul class="contact-ul">
+            <li><a><img src="./Bisi&#39;s Cake webpage_files/twitter-icon.svg"></a></li>
+            <li><a><img src="./Bisi&#39;s Cake webpage_files/instagram-icon.svg"></a></li>
+            <li><a><img src="./Bisi&#39;s Cake webpage_files/facebook-icon.svg"></a></li>            
+        </ul>
+    </div>
+        <!-- <section class="media-contact">
+    <h3>Join us on</h3>
+    <ul class="contact-ul">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a> -->
+    <!-- </ul> -->
+</section></footer>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
