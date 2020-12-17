@@ -5,34 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Responsive Cake webpage</title>
+    <title>Bisi's Cake webpage</title>
+    <!-- media links downloaded online -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Add a link to your css file here -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <!-- Add your markup here -->
-    <nav>
-        <hi>Cake Co.</hi>
-        <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">cakes</a></li>
-            <li><a href="#">ordering</a></li>
-            <li><a href="#">lessons</a></li>
-            <li><a href="#">lessons</a></li>
-        </ul>
-
+   <header>
+        <nav class="nav-position">
+            <img src="./styles css/logo.png" class=nav-logo class="active">
+            <img src="styles css/menu-hamburger.svg" class="hamburger">           
+            <ul class="nav-ul">                
+                <li><a href="#">home</a></li>
+                <li><a href="#">cakes</a></li>
+                <li><a href="#">ordering</a></li>
+                <li><a href="#">lessons</a></li>
+                <li><a href="#">lessons</a></li>
+            </ul>
     </nav>
-
+    </header>
 <main>
-    <section>
-        <img src="#" class="#">        
-    </section>
-
-    <section>
-        <h1><i>The best cakes in town delivered to your door</i></h1>
-    </section>
-
+    <hero class="heroMain">
+        <img src="./styles css/heroMain1.jpeg"> 
+        <h1><i>The best cakes in town delivered to your door</i></h1>    
+    </hero>
+ 
     <section>
         <h1>Welcome</h1>
         <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -41,18 +41,33 @@
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt</h2>
     </section>
 
-    <section>
-        <img src="#" class="#">
-        <img src="#" class="#">
-        <img src="#" class="#">
-        <img src="#" class="#">
-        <img src="#" class="#">
+    <section class="img-main">
+        <div class="container-cupcakes">
+            <img src="./styles css/hero1.png" class="#">
+            <img src="./styles css/hero2.png" class="#">
+            <img src="./styles css/hero3.png" class="#">
+            <img src="./styles css/hero9.png" class="#">
+             <img src="./styles css/hero8.png" class="#">
+        </div>
     </section>
 
 </main> 
 
 <footer>
-
+<!--footer media icons -->
+    <!-- <section class="media-contact">
+    <h3>Join us on</h3>
+    <ul class="contact-ul">
+        <li><a><img src="img/twitter-icon.svg"></a></li>
+        <li><a><img src="img/facebook-icon.svg"></a></li>
+        <li><a><img src="img/instagram-icon.svg"></a></li> -->
+    <section class="media-contact">
+    <h3>Join us on</h3>
+    <ul class="contact-ul">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+    </ul>
 </footer>
 </body>
 
