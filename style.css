@@ -3,6 +3,8 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
    width: ;
+  background-color: burlywood;
+  
 }
 
 nav {
@@ -69,9 +71,13 @@ a:hover {
 
 .container-cupcakes {
   display: flex;
-  flex-direction: column;
-  align-content: center;
-  /* justify-content: space-around; */
+  flex-direction: row;
+  /* align-content: center; */
+  justify-content: space-between;
+  width: 5vx;
+  height: 30vh;
+  border: chocolate;
+  margin-right: 3px;
   /* text-align: end; */
 }
 
