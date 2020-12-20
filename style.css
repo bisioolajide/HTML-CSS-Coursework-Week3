@@ -34,14 +34,16 @@ body {
 }
 
 .nav-logo {
-  width: 100px;
+  width: 150px;
   margin: 10px 0px;
-  cursor: pointer;
+  
 }
 
 .hamburger {
   width: 30px;
-  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  
 }
 
 nav {
@@ -49,6 +51,7 @@ nav {
   justify-content: space-between;
   text-align: right;
   display: none;
+ 
 }
 
 /* .nav-ul {
@@ -56,7 +59,7 @@ nav {
 } */
 
 nav ul li {
-  list-style: none;
+ 
   margin-right: 30px;
   list-style-type: none;
   display: flex;
@@ -148,7 +151,7 @@ h2 {
   border: 1px solid rgb(43, 34, 34);
   border-radius: 8px;
   padding: 5px;
-  width: 80px;
+  /* width: 80px; */
   height: 0.5em;
   display: inline;
   justify-content: center;
@@ -182,13 +185,24 @@ Footer .media-contact {
   margin: 20px;
 }
 
+.contact-list {
+ 
+  display: flex
+  justify-content: inline;
+  
+}
 .contact-ul {
-  text-align: center;
+  align-items: center;
+  list-style: none;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
 }
 
 h5 {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 650px;
 }
 
 /* nav {
@@ -252,8 +266,7 @@ a:hover {
   }
 
   .hamburger {
-    /* display: none; */
-    /* width: 30px;
+    width: 30px;
     cursor: pointer;
     color: whitesmoke; */
   }
@@ -276,10 +289,10 @@ a:hover {
 }
 
 @media (min-width: 600px) {
- nav {
-   display: flex;
- }
- 
+  nav {
+    display: flex;
+  }
+
   .nav-logo {
     padding-left: 50px;
   }
